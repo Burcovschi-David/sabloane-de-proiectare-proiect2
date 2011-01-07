@@ -10,7 +10,7 @@ public class Cat extends Operator
 		return aux1/aux2;
 	}	
 	
-	public double Calcul(double aux1, double aux2){
+	public static double Calcul(double aux1, double aux2){
 		if(aux2==0){
 			   System.out.println("Eroare: impartire cu zero");
 			   System.exit(1);
