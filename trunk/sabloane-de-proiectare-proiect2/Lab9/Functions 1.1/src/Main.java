@@ -15,10 +15,12 @@ public class Main {
 		
 		ArboreFunctional a=new ArboreFunctional(plus);
 		Visitor v=new ToStringVisitor();
-		v.visit(plus);
+		Visitor vv=new DerivareVisitor();
+		a.acceptVisitor(v);
+		a.acceptVisitor(vv);
 		
 		System.out.println("Functia este: f(x)="+((ToStringVisitor)v).getS());
-		//System.out.println("Derivata este: f'(x)="+a.derivata());
+		System.out.println("Derivata este: f'(x)="+((DerivareVisitor)vv).getS());
 		//System.out.println("f(5)="+a.calculezValoare(5));
 		//System.out.println("f'(2)="+a.calculezDerivata(2));
 		
@@ -30,9 +32,12 @@ public class Main {
 		
 		ArboreFunctional a2=new ArboreFunctional(sin);
 		Visitor v2=new ToStringVisitor();
-		v2.visit(sin);
+		Visitor vv2=new DerivareVisitor();
+		a2.acceptVisitor(v2);
+		a2.acceptVisitor(vv2);
 		
 		System.out.println("Functia este: g(x)="+((ToStringVisitor)v2).getS());
+		System.out.println("Derivata este: g'(x)="+((DerivareVisitor)vv2).getS());
 	}
 
 }
