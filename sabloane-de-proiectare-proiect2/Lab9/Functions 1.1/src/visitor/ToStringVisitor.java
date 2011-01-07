@@ -59,6 +59,9 @@ public class ToStringVisitor extends Visitor {
 		else 
 			if(n instanceof Constanta) 
 				visit((Constanta)n);
+		else
+			if(n instanceof Functie)
+				visit((Functie)n);
 	}
 	
 	public void visit(Operator o){
