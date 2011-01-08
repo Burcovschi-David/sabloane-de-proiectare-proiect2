@@ -18,5 +18,6 @@ public class ArboreFunctional {
 	public void acceptVisitor(Visitor v){
 		v.visit(radacina);
 	}
+	
 
 }
