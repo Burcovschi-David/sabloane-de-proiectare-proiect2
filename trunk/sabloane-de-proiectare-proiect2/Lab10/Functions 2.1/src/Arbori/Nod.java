@@ -2,6 +2,11 @@ package Arbori;
 
 import visitor.Visitor;
 
+/**
+ * Modeleaza un nod generic al arborelui functional
+ * @author Ordog Dorottya
+ *
+ */
 public class Nod {
 	
 	private Nod fStang;
