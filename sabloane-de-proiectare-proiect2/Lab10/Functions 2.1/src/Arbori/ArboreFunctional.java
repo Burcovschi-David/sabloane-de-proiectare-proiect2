@@ -1,7 +1,12 @@
 package Arbori;
 
-import visitor.Visitor;
+import visitor.*;
 
+/**
+ * Modeleaza un arbore functional
+ * @author Ordog Dorottya
+ *
+ */
 public class ArboreFunctional {
 	
 	private Nod radacina;
@@ -18,6 +23,5 @@ public class ArboreFunctional {
 	public void acceptVisitor(Visitor v){
 		v.visit(radacina);
 	}
-	
 
 }
