@@ -1,5 +1,9 @@
 package Functii;
-
+/**
+ * Modeleaza functia radical
+ * @author Ordog Dorottya
+ *
+ */
 public class Radical extends Functie {
 
 	public String concatTermeni(String aux1){

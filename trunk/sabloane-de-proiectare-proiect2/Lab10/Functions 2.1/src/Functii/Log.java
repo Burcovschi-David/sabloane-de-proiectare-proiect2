@@ -1,5 +1,9 @@
 package Functii;
-
+/**
+ * Modeleaza functia log
+ * @author Ordog Dorottya
+ *
+ */
 public class Log extends Functie {
 
 	public String concatTermeni(String aux1){

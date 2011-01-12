@@ -1,7 +1,11 @@
 package Functii;
 
 import Arbori.*;
-
+/**
+ * Modeleaza o constanta de tip real
+ * @author Ordog Dorottya
+ *
+ */
 public class Constanta extends Nod {
 
 	private double ct;
