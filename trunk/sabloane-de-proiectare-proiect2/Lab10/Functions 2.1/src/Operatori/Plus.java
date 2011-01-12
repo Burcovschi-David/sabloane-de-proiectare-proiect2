@@ -1,5 +1,9 @@
 package Operatori;
-
+/**
+ * Modeleaza operatorul plus
+ * @author Ordog Dorottya
+ *
+ */
 public class Plus extends Operator {
 	
 	public String concatTermeni(String aux1,String aux2){
@@ -8,7 +12,7 @@ public class Plus extends Operator {
 			aux="0";
 		else if(aux1.compareTo("0")==0) aux=aux2;
 		else if(aux2.compareTo("0")==0) aux=aux1;
-		else aux=aux1+"+"+aux2;
+		else aux=aux1+" + "+aux2;
 		return aux;
 	}
 	
@@ -18,7 +22,7 @@ public class Plus extends Operator {
 			aux="0";
 		else if(aux1.compareTo("0")==0) aux=aux2;
 		else if(aux2.compareTo("0")==0) aux=aux1;
-		else aux=aux1+"+"+aux2;
+		else aux=aux1+" + "+aux2;
 		return aux;
 	}
 

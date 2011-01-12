@@ -1,5 +1,9 @@
 package Operatori;
-
+/**
+ * Modeleaza operatorul produs
+ * @author Ordog Dorottya
+ *
+ */
 public class Produs extends Operator{
 
 	public String concatTermeni(String aux1,String aux2){
@@ -18,7 +22,7 @@ public class Produs extends Operator{
 			return "-" + aux1 + "*" + aux2.substring(1);
 		if (aux1.equals(aux2))
 			return aux1 + "^2";
-		return aux1 + "*" + aux2;
+		return aux1 + " * " + aux2;
 	}
 	
 	public static String concatTermens(String aux1,String aux2){
@@ -37,7 +41,7 @@ public class Produs extends Operator{
 			return "-" + aux1 + "*" + aux2.substring(1);
 		if (aux1.equals(aux2))
 			return aux1 + "^2";
-		return aux1 + "*" + aux2;
+		return aux1 + " * " + aux2;
 	}
 
 }
