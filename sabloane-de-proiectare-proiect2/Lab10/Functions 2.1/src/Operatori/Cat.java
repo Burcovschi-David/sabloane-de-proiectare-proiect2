@@ -1,5 +1,9 @@
 package Operatori;
-
+/**
+ * Modeleaza operatorul cat
+ * @author Ordog Dorottya
+ *
+ */
 public class Cat extends Operator{
 
 	public String concatTermeni(String aux1, String aux2){
@@ -17,7 +21,7 @@ public class Cat extends Operator{
 		else if (aux2.charAt(0) == '-')
 			return "-" + aux1 + "/" + aux2.substring(1);
 		else
-			return aux1 + "/" + aux2;
+			return aux1 + " / " + aux2;
 	}
 	
 	public static String concatTermens(String aux1, String aux2){
@@ -35,7 +39,7 @@ public class Cat extends Operator{
 		else if (aux2.charAt(0) == '-')
 			return "-" + aux1 + "/" + aux2.substring(1);
 		else
-			return aux1 + "/" + aux2;
+			return aux1 + " / " + aux2;
 	}
 
 }

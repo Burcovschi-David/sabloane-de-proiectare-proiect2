@@ -1,6 +1,10 @@
 package Operatori;
 
-
+/**
+ * Modeleaza operatorul minus
+ * @author Ordog Dorottya
+ *
+ */
 public class Minus extends Operator {
 	
 	public String concatTermeni(String aux1,String aux2){
@@ -9,7 +13,7 @@ public class Minus extends Operator {
 			aux=aux1;
 		else if(aux1.compareTo("0")==0) aux=aux2;
 		else if(aux2.compareTo("0")==0) aux=aux1;
-		else aux=aux1+"-"+aux2;
+		else aux=aux1+" - "+aux2;
 		return aux;
 	}
 	
@@ -19,7 +23,7 @@ public class Minus extends Operator {
 			aux=aux1;
 		else if(aux1.compareTo("0")==0) aux=aux2;
 		else if(aux2.compareTo("0")==0) aux=aux1;
-		else aux=aux1+"-"+aux2;
+		else aux=aux1+" - "+aux2;
 		return aux;
 	}
 
