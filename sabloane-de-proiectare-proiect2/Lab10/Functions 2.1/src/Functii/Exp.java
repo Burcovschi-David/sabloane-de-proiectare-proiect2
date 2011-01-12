@@ -1,5 +1,9 @@
 package Functii;
-
+/**
+ * Modeleaza functia exponentiala
+ * @author Ordog Dorottya
+ *
+ */
 public class Exp extends Functie{
 	
 	public String concatTermeni(String aux1)

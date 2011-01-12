@@ -1,5 +1,9 @@
 package Functii;
-
+/**
+ * Modeleaza functia putere
+ * @author Ordog Dorottya
+ *
+ */
 public class Putere extends Functie{
 	
 	public String concatTermeni(String aux1){

@@ -1,5 +1,9 @@
 package Functii;
-
+/**
+ * Modeleaza functia tg
+ * @author Ordog Dorottya
+ *
+ */
 public class Tg extends Functie {
 
 	public String concatTermeni(String aux1)

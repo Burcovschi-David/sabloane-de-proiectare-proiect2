@@ -1,5 +1,9 @@
 package Functii;
-
+/**
+ * Modeleaza functia arcsin
+ * @author Ordog Dorottya
+ *
+ */
 public class Arcsin extends Functie{
 
 	public String concatTermeni(String aux1){

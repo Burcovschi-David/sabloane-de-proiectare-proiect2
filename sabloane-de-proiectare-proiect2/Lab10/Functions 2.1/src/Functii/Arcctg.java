@@ -1,5 +1,9 @@
 package Functii;
-
+/**
+ * Modeleaza functia arcctg
+ * @author Ordog Dorottya
+ *
+ */
 public class Arcctg extends Functie{
 
 	public String concatTermeni(String aux1){

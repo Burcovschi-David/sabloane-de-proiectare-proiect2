@@ -1,5 +1,10 @@
 package Functii;
 
+/**
+ * Modeleaza functia arccos
+ * @author Ordog Dorottya
+ *
+ */
 public class Arccos extends Functie{
 
 	public String concatTermeni(String aux1){
