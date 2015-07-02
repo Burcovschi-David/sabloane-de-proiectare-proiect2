@@ -1,0 +1,1 @@
+Evaluarea functiilor de o singura variabila reala - Refactorizare
